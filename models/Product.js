@@ -12,7 +12,7 @@ Product.init(
     // define columns
     id: {
       type: DataTypes.INTEGER,
-      autoIncrementIdentity: true,
+      autoIncrement: true,
       allowNull: false,
       unique: true,
       primaryKey: true,
@@ -33,7 +33,7 @@ Product.init(
    stock: {
     type: DataTypes.INTEGER,
     allowNull: true,
-    defaultValue: 0,
+    defaultValue: 10,
    },
 
    category_id: {

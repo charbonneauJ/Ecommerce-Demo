@@ -14,7 +14,7 @@ app.use(routes);
 // sync sequelize models to the database, then turn on the server
 sequelize
   .sync({
-    force: true, // change this to lock table/ column names
+    force: false, // change this to lock table/ column names
   })
   .then(() => {
     app.listen(PORT, () => {
