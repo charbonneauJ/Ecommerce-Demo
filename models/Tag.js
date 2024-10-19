@@ -14,7 +14,7 @@ Tag.init(
       autoIncrement: true,
     },
     tag_name: {
-      type: DataTypes.CHAR,
+      type: DataTypes.STRING,
     },
   },
   {
@@ -23,7 +23,7 @@ Tag.init(
     freezeTableName: true,
     underscored: true,
     modelName: "tag",
-  },
+  }
 );
 
 module.exports = Tag;
