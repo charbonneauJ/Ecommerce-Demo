@@ -18,13 +18,13 @@ Video -
 Install ecommerce demo with npm
 
 ```bash
--   npm i
--	psql -U postgres
--	your postgres password in .env
--	\i db/schema.sql
--	\q
--	npm run seed
--	npm run watch
+- npm i
+- psql -U postgres
+- your postgres password in .env
+- \i db/schema.sql
+- \q
+- npm run seed
+- npm run watch
 
 ```
     
