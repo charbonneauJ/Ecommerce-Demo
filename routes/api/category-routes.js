@@ -11,7 +11,7 @@ router.get("/", async (req, res) => {
     });
     res.status(200).json(categories);
   } catch (err) {
-    console.log("Category creation failed: ", err);
+    console.log("Category find all failed: ", err);
     res.status(500).json(err);
   }
   // be sure to include its associated Products
@@ -62,10 +62,6 @@ router.delete("/:id", async (req, res) => {
   try {
     const deletedCategory = await Category.findByPk(req.params.id);
     await deletedCategory.destroy();
-    console.log("===============================");
-    console.log(req.params.id);
-    console.log("===============================");
-
     res.status(200).json(deletedCategory);
   } catch (err) {
     console.log("Category deletion failed: ", err);
