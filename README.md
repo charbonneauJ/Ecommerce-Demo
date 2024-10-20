@@ -12,5 +12,22 @@ Video -
 
 ![Week 13 Challenge2](https://github.com/user-attachments/assets/6e4dd207-765e-4142-9d0f-d2ea0c71dbc9)
 
+
+## Installation
+
+Install ecommerce demo with npm
+
+```bash
+- npm i
+-	psql -U postgres
+-	your postgres password in .env
+-	\i db/schema.sql
+-	\q
+-	npm run seed
+-	npm run watch
+
+```
+    
+
 ## 🚀 About Me
 I'm a full stack developer in training, here is my [Github...](https://github.com/charbonneauJ)
