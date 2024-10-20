@@ -8,7 +8,9 @@ Video -
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Week 13 Challenge1](https://github.com/user-attachments/assets/bc189b34-ea9b-40a3-9f89-fb7c4071c119)
+
+![Week 13 Challenge2](https://github.com/user-attachments/assets/6e4dd207-765e-4142-9d0f-d2ea0c71dbc9)
 
 ## 🚀 About Me
 I'm a full stack developer in training, here is my [Github...](https://github.com/charbonneauJ)
