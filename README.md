@@ -18,7 +18,7 @@ Video -
 Install ecommerce demo with npm
 
 ```bash
-- npm i
+-   npm i
 -	psql -U postgres
 -	your postgres password in .env
 -	\i db/schema.sql
